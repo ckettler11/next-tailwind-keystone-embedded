@@ -1,0 +1,30 @@
+{
+  "name": "with-keystone",
+  "private": true,
+  "scripts": {
+    "postinstall": "keystone postinstall",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@keystone-6/core": "^1.0.0",
+    "next": "12.0.6",
+    "postcss": "^8.4.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.11",
+    "@types/react": "17.0.37",
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "autoprefixer": "^10.2.6",
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "tailwindcss": "^2.2.19",
+    "typescript": "4.5.2"
+  }
+}
